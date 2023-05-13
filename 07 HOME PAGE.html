@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 HOME PAGE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('BACKGROUND SITE.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling on the homepage */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .image {
+            width: 800px;
+            height: 500px;
+            border-radius: 100%;
+            margin: 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 2s ease;
+        }
+
+        .image:hover {
+            transform: scale(3);
+        }
+
+        .image img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <a href="second home 07.html">07.png</a>
+    <div class="container">
+        <div class="image" onclick="location.href='second home 07.html'">
+            <img src="07.png" alt="Image 1">
+</body>
+</html>
